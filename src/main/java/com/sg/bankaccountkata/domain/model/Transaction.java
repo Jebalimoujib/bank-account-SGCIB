@@ -1,6 +1,5 @@
-package com.sg.bankaccountkata.domain;
+package com.sg.bankaccountkata.domain.model;
 
-import java.time.LocalDateTime;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -10,10 +9,10 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class TransactionHistory {
-    private Long id;
+public class Transaction {
+
+    private String accountNumber;
     private TransactionType type;
     private Long amount;
-    private Long balance;
-    private LocalDateTime dateTime;
+
 }

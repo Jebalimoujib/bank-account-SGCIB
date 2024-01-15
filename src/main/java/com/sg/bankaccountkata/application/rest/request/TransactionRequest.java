@@ -1,7 +1,6 @@
-package com.sg.bankaccountkata.rest.dto;
+package com.sg.bankaccountkata.application.rest.request;
 
 
-import com.sg.bankaccountkata.domain.TransactionType;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -12,10 +11,7 @@ import org.springframework.lang.NonNull;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class TransactionDto {
-
-    @NonNull
-    private TransactionType type;
+public class TransactionRequest {
 
     @NonNull
     private Long amount;

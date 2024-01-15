@@ -10,7 +10,7 @@
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
   <groupId>com.sg</groupId>
-  <artifactId>Bank-account-kata</artifactId>
+  <artifactId>Bank-account</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>Bank-account-kata</name>
   <description>Bank-account-kata</description>

@@ -1,4 +1,4 @@
-package com.sg.bankaccountkata.domain;
+package com.sg.bankaccountkata.domain.model;
 
 public enum AccountType {
     SAVINGS,
